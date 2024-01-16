@@ -4,13 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Recipes</title>
+<style>
+    body{
+        background-color: black;
+    }
+    div{ 
+        display: block;
+
+    }
+    #list{
+        list-style-type: none;
+    }
+    .links{
+        color: white;
+        font-size: xx-large;
+        text-decoration: none;
+        width:800px;
+    }
+    .link{
+        margin: 25px;
+        background-color: blue;
+        padding:25px;
+    }
+</style>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/tacos.html">Tacos</a></li>
-            <li><a href="recipes/chocolate-pie.html">Chocolate pie</a></li>
-            <li><a href="recipes/broccoli.html">Lemon Garlic Roasted Broccoli with Parmesan</a></li>
+        <h1 style="color: white;text-align: center;">Odin Recipes</h1>
+        <div>
+        <ul id="list">
+            <div class="link"><li><a href="recipes/tacos.html" class="links">Tacos</a></li></div>
+            <div class="link"><li><a href="recipes/chocolate-pie.html" class="links ">Chocolate pie</a></li></div>
+            <div class="link"><li><a href="recipes/broccoli.html" class="links">Lemon Garlic Roasted Broccoli with Parmesan</a></li></div>
         </ul>
+        </div>
     </body>
 </html>
